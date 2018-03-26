@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/as/as",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#33CCFF",
+    "navigationBarTitleText": "XD电影",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "backgroundColor": "#33CCFF",
+    "selectedColor": "#3366FF",
+    "color": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/icom/icon_tab_sy2.png",
+      "selectedIconPath": "pages/icom/icon_tab_sy1.png"
+    },
+    {
+      "pagePath": "pages/index/as/as",
+      "text": "附近",
+      "iconPath": "pages/icom/icon_tab_gx2.png",
+      "selectedIconPath": "pages/icom/icon_tab_gx1.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "pages/icom/icon_tab_sy2.png",
+      "selectedIconPath": "pages/icom/icon_tab_sy1.png"
+    }
+    ]
+  }
+}
